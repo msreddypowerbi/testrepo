@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybrideSuite" duration-ms="37571" started-at="2021-02-13T10:46:29 IST" finished-at="2021-02-13T10:47:07 IST">
+    <groups>
+    </groups>
+    <test name="HybideSuite" duration-ms="37571" started-at="2021-02-13T10:46:29 IST" finished-at="2021-02-13T10:47:07 IST">
+      <class name="com.qa.linkedin.Testcases.SearchDataDrivenTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.linkedin.Testcases.SearchDataDrivenTest@6591f517]" name="setup" is-config="true" duration-ms="5921" started-at="2021-02-13T10:46:23 IST" finished-at="2021-02-13T10:46:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.linkedin.Testcases.SearchDataDrivenTest@6591f517]" name="beforeClass" is-config="true" duration-ms="24305" started-at="2021-02-13T10:46:29 IST" finished-at="2021-02-13T10:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchDataDrivenTest(java.lang.String)[pri:0, instance:com.qa.linkedin.Testcases.SearchDataDrivenTest@6591f517]" name="searchDataDrivenTest" duration-ms="10924" started-at="2021-02-13T10:46:55 IST" data-provider="getData" finished-at="2021-02-13T10:47:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rakesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDataDrivenTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.linkedin.Testcases.SearchDataDrivenTest@6591f517]" name="afterClass" is-config="true" duration-ms="995" started-at="2021-02-13T10:47:06 IST" finished-at="2021-02-13T10:47:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linkedin.Testcases.SearchDataDrivenTest@6591f517]" name="tearDown" is-config="true" duration-ms="2233" started-at="2021-02-13T10:47:08 IST" finished-at="2021-02-13T10:47:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.Testcases.SearchDataDrivenTest -->
+    </test> <!-- HybideSuite -->
+  </suite> <!-- HybrideSuite -->
+</testng-results>
